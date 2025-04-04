@@ -99,16 +99,16 @@ function App() {
 
   // Add some mock data for development
   const mockUser: User = {
-    firstName: 'Nerlan',
-    lastName: 'Sanchez',
-    email: 'nerlan.sanchez@example.com',
-    phone: '555-123-4567',
-    password: 'Password123',
+    firstName: 'Rabnawaz',
+    lastName: 'Khan',
+    email: 'rabnawaz99299@gmail.com',
+    phone: '03035945945',
+    password: 'Khan@123',
     inviteCode: '',
     totalSavings: 0.00,
     fillUps: 0,
     rewardPoints: 0,
-    clientId: 'ABCD1234'
+    clientId: 'CLI873923'
   };
 
   if (isLoading) {
