@@ -1,0 +1,12 @@
+# Netlify Configuration File
+
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Additional Netlify configuration can be added below
